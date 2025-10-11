@@ -9,7 +9,7 @@ import java.util.Iterator;
 //        Please leave the comments and add your code just after the comment.
 //        Use the examples in the book to complete the lab.
 
-class Main {
+class Main2 {
   public static void main(String[] args) {
     Lab2 lab = new Lab2();
     // Comment/Uncomment the following 3 method calls as you work on each method.
@@ -66,7 +66,7 @@ class Lab2 {
     for (String element : q){
       System.out.print(element + " ");
     }
-    
+    System.out.println();
   }
 
   public void stack() {
