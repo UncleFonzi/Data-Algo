@@ -20,8 +20,11 @@ class Main6 {
 
     creditHours.remove("IT-2030");
     creditHours.remove("IT-1150");
-    
-    System.out.println("Values in map: " + creditHours.values());
+
+    System.out.println("\nAll values after removal:");
+    for (String key : creditHours.keySet()) {
+      System.out.println(creditHours.get(key));
+    }
 
   }
 }
